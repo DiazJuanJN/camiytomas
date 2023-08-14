@@ -1,0 +1,196 @@
+:root {
+  --bg-color-1: #faeae3;
+  --text-color-1: #c45824;
+  --text-color-2: #d07143;
+  --text-color-3: #f66b28;
+}
+
+body {
+  width: 100vw;
+}
+
+.background-image-1 {
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+
+.background-image-2 {
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  transform: rotate(180deg);
+  z-index: -1;
+}
+
+.background-image-section {
+  display: flex;
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100)
+}
+
+.background-image-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.background-image-title-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.background-image-title-h1 {
+  font-family: 'Ms Madi';
+  font-size: 3rem;
+  margin: 0;
+}
+
+.background-image-title-span {
+  font-family: 'Inter';
+  color: var(--text-color-3);
+  font-size: 1.25rem;
+  padding: 10px;
+}
+
+.timer-section {
+  background-color: var(--text-color-1);
+  color: var(--bs-white);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0px 10px 0px;
+  font-family: 'Inter';
+}
+
+.timer-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.paragraph-1-section {
+  text-align: center;
+  padding: 20px;
+  font-family: 'EB Garamond';
+  font-size: large;
+  font-style: italic;
+  color: var(--text-color-2);
+  line-height: 100%;
+}
+
+.location-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  text-align: center;
+  font-family: 'Inter';
+  color: var(--text-color-3);
+}
+
+.location-img {
+  width: 30%;
+  max-width: 360px;
+  height: auto;
+  margin: 10px;
+}
+
+.section-text {
+  text-align: center;
+  font-family: 'Bitter';
+  color: var(--bs-secondary-color);
+  margin-top: 10px;
+}
+
+.wedding-button {
+  width: 50%;
+  max-width: 360px;
+  margin: 10px;
+  background-color: var(--text-color-2);
+  color: var(--bs-white);
+  font-family: 'Inter';
+  border-radius: 20px;
+}
+
+.wedding-button:hover {
+  background-color: var(--text-color-1);
+  color: var(--bs-white);
+}
+
+.photo-1 {
+  width: 100%;
+  margin: 10px 0px 0px 0px;
+}
+
+.assistance-section, .music-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.assistancce-img, .music-img {
+  width: 40%;
+  max-width: 240px;
+  margin: 0px 0px 10px 0px;
+}
+
+.photo-2 {
+  width: 100%;
+  margin: 10px 0px 0px 0px;
+}
+
+.dresscode-img {
+  width: 40%;
+  padding: 20px 0px 0px 0px;
+}
+
+.dresscode-section, .gift-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 0px 10px 0px;
+  background-color: var(--bg-color-1);
+}
+
+.dresscode-bg-img-1 {
+  position: absolute;
+  left: 0;
+  width: 20%;
+  transform: rotate(180deg);
+}
+
+.dresscode-bg-img-2 {
+  position: absolute;
+  right: 0;
+  width: 20%;
+  transform: rotate(270deg);
+}
+
+.gift-img {
+  width: 30%;
+  padding: 20px 0px 0px 0px;
+}
+
+.thanks-section {
+  background-color: var(--text-color-1);
+  padding: 10px 0px 10px 0px;
+  color: var(--bs-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Ms Madi';
+}
+
+.thanks-text {
+  font-size: xx-large;
+}
+
